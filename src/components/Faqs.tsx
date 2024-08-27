@@ -20,18 +20,6 @@ const faqs = [
       answer:
         'Absolutt! nais støtter både frontend- og backend-applikasjoner. Den gir sømløs integrasjon med populære rammeverk og biblioteker.',
     },
-  ],
-  [
-    {
-      question: 'Er nais sikker?',
-      answer:
-        'Ja, nais prioriterer sikkerhet. Den gir innebygde sikkerhetsfunksjoner som autentisering, autorisasjon og kryptering for å sikre sikkerheten til applikasjonene og dataene dine.',
-    },
-    {
-      question: 'Støtter nais konteinerisering?',
-      answer:
-        'Ja, nais støtter fullstendig konteinerisering. Den benytter seg av konteinerteknologier som Docker og Kubernetes for å gi et skalerbart og bærbart miljø for applikasjonene dine.',
-    },
     {
       question: 'Hvordan kan jeg overvåke applikasjonene mine på nais?',
       answer:
@@ -39,8 +27,25 @@ const faqs = [
     },
   ], [
     {
-      question: 'Kan jeg distribuere applikasjonene mine til flere miljøer med nais?', answer:
-        'Absolutt! nais støtter distribusjon til flere miljøer. Du kan enkelt distribuere applikasjonene dine til forskjellige miljøer som utvikling, staging og produksjon med minimal konfigurasjon.',
+      question: 'NAIS tilbys også som en tjeneste for andre statlige forvaltningsorgan?',
+      answer:
+        'I tillegg til at plattformen tilbys som åpen kildekode, er det også mulig for andre statlige virksomheter å ta i bruk den skybaserte delen av Nais som en tjeneste. Praktisk løses dette ved at man utnytter standardarkitekturen i skytjenesntene, ved at det opprettes en egen tenant for hver organisasjon som bruker NAIS. De forskjellige organisasjonene får dermed ikke tilgang til hverandres applikasjoner og data. De underliggenende skytjenestene/plattformkomponentene konfigureres gjennom bruk av NAIS, men driftes og forvaltes direkte av den underliggende leverandøren av plattformtjenester. De underliggende plattformtjenestene, levert av Google, Aiven og NAIS deles av alle. I tillegg til plattformtjenestene tilbyr NAIS standardkonfigurasjon for å ta disse i bruk. Denne kopieres ut til hver virksomhets infrastruktur hos skyleverandørene.'
+    },
+    {
+      question: 'Hvem kan ta i bruk NAIS som en tjeneste?',
+      answer:
+        'Det er kun ordinære forvaltningsorgan i staten, som ikke driver økonomisk virksomhet, som kan benytte tjenesten. Annen bruk kan komme i konflikt med Statsstøtteregelverket. Hvis virksomheten din er privat, kommunal eller er et statsforetak, helseforetak eller lignende dere fortsatt bruke åpen kildekode fra NAIS, men NAV har da ikke anledning til å dele NAIS som en tjeneste.'
+    },
+  ], [
+    {
+      question: 'Hva koster det?',
+      answer:
+        'NAV skal ikke tjene penger på dette, og kostnader for drift og forvaltning hos NAV fordeles etter selvkostprinsippet. Kostnadene for de underliggende skytjenestene fordeles etter forbruk, uten påslag.'
+    },
+    {
+      question: 'Hva er tjenestenivået som tilbys?',
+      answer:
+        'Tjenesten tilbys etter «best effort» prinsippet. Det innebærer at det ikke etableres SLA som er vanlig mellom kommersielle virksomheter. Økonomiske sanksjoner mellom virksomheter med samme eier gir ikke så mye mening, så eventuelle tvister må løses i minnelighet. Alle brukere av tjenesten har likeverdig tilgang til support og 24/7 beredskap. Det etableres et brukerforum der erfaringer og forslag til forbedring av funksjonalitet kan deles.'
     },
     {
       question: 'Er nais egnet for mikrotjenestearkitektur?',
@@ -74,7 +79,8 @@ export function Faqs() {
             Ofte stilte spørsmål
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Hvis du ikke finner det du leter etter, kan du sende en e-post til vårt supportteam, og hvis du er heldig, vil noen svare deg.
+            Her finner du svar på noen av de vanligste spørsmålene om nais, plattformen og tjenesten.
+            Hvis du ikke finner svaret du leter etter, kan du kontakte oss for mer informasjon.
           </p>
         </div>
         <ul

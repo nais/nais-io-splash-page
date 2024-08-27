@@ -89,9 +89,8 @@ export function Testimonials() {
             Elsket av team over hele Norge.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+            Team over hele Norge har tatt i bruk nais for å kjøre kritiske
+            applikasjoner i produksjon. Her er hva noen av dem har å si.
           </p>
         </div>
         <ul
