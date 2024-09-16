@@ -44,7 +44,7 @@ export function Hero() {
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
-          plattformen vår brukes av produktteam hos
+          nais er brukt av produktteam hos
         </p>
         <ul
           role="list"

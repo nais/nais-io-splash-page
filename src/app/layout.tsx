@@ -7,10 +7,10 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - nais',
-    default: 'nais - Accounting made simple for small businesses',
+    default: 'nais - smidighet for alle produktteam',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'nais er en plattform som lar produktteam fokusere på det som er viktigst, det å lage gode produkter, ikke å drifte plattformen.',
 }
 
 const inter = Inter({
