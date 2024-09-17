@@ -56,9 +56,9 @@ const features: Array<Feature> = [
   {
     name: 'Sårbarheter',
     summary:
-      'Aldri bekymre deg for sårbarheter igjen. Vi har det dekket.',
+      'Sov trygt og sikkert om natten. Vi har det dekket.',
     description:
-      'Vi har et team av sikkerhetseksperter som jobber døgnet rundt for å sørge for at du aldri trenger å bekymre deg for sårbarheter igjen.',
+      'Våre automatiske sikkerhetssystemer jobber døgnet rundt for å sørge for at applikasjonene er trygge og at teamene kjenner til kritiske sårbarheter.',
     image: screenshotVulnerabilities,
     icon: function InventoryIcon() {
       return (
