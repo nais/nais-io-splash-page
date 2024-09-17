@@ -25,10 +25,11 @@ export function Hero() {
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         De fleste plattformer er kompliserte og vanskelige å ta i bruk. Vi har
-        laget en plattform som lar produktteam fokusere på det som er viktigst.
+        bygget en som lar produktteam fokusere på det som er viktigst – lage
+        gode applikasjoner.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Få 6 måneder gratis</Button>
+        <Button href="https://docs.nais.io">Les dokumentasjonen</Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
@@ -44,7 +45,7 @@ export function Hero() {
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
-          nais er brukt av produktteam hos
+          nais er brukt av utviklingsteam hos
         </p>
         <ul
           role="list"

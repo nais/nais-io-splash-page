@@ -72,11 +72,12 @@ function MobileNavigation() {
         transition
         className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5 data-[closed]:scale-95 data-[closed]:opacity-0 data-[enter]:duration-150 data-[leave]:duration-100 data-[enter]:ease-out data-[leave]:ease-in"
       >
-        <MobileNavLink href="#features">Funksjoner</MobileNavLink>
-        <MobileNavLink href="#testimonials">Omtaler</MobileNavLink>
-        <MobileNavLink href="#pricing">Prising</MobileNavLink>
-        <hr className="m-2 border-slate-300/40" />
-        <MobileNavLink href="/login">Logg inn</MobileNavLink>
+        <MobileNavLink href="#funksjonalitet">Funksjoner</MobileNavLink>
+        <MobileNavLink href="#omtaler">Omtaler</MobileNavLink>
+        <MobileNavLink href="#contact">Kontakt</MobileNavLink>
+        <MobileNavLink href="#naas">Nais as a Service</MobileNavLink>
+        {/* <hr className="m-2 border-slate-300/40" /> */}
+        {/* <MobileNavLink href="/login">Logg inn</MobileNavLink> */}
       </PopoverPanel>
     </Popover>
   )
@@ -92,18 +93,17 @@ export function Header() {
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Funksjoner</NavLink>
-              <NavLink href="#testimonials">Omtaler</NavLink>
-              <NavLink href="#pricing">Prising</NavLink>
+              <NavLink href="#funksjonalitet">Funksjoner</NavLink>
+              <NavLink href="#omtaler">Omtaler</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
-              <NavLink href="/login">Logg inn</NavLink>
+              <NavLink href="#contact">Kontakt oss</NavLink>
             </div>
-            <Button href="/register" color="blue">
+            <Button href="#naas" color="blue">
               <span>
-                Kom igang <span className="hidden lg:inline">i dag</span>
+                Nais a a Service
               </span>
             </Button>
             <div className="-mr-1 md:hidden">

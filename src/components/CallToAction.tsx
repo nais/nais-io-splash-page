@@ -21,14 +21,13 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Kom igang i dag
+            Også for andre enn NAV
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            Det er på tide å gi dine team superkrefert. Vår plattform lar deg
-            bygge og skalere dine team uten å måtte bekymre deg.
+            NAIS plattformen er også tilgjengelig for andre offentlige virksomheter som en tjeneste vi kaller Nais as a Service.
           </p>
-          <Button href="/register" color="white" className="mt-10">
-            Få 6 måneder gratis
+          <Button href="/naas" color="white" className="mt-10">
+            Lær mer om NaaS
           </Button>
         </div>
       </Container>

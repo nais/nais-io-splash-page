@@ -234,11 +234,11 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Gjør hverdagen litt enklere
+            Gjør utvikling litt enklere
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Vi har automatisert de kjedelige oppgavene, slik at du kan fokusere
-            på det som virkelig betyr noe gjennom hele utviklingsprosessen.
+            Vi har automatisert de kjedelige oppgavene, slik at teamene kan fokusere
+            på det som utgjør en forskjell gjennom hele utviklingsprosessen.
           </p>
         </div>
         <FeaturesMobile />
