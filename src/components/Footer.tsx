@@ -14,7 +14,7 @@ export function Footer() {
             <div className="-my-1 flex justify-center gap-x-6">
               <NavLink href="#funksjonalitet">Funksjonalitet</NavLink>
               <NavLink href="#omtaler">Omtaler</NavLink>
-              <NavLink href="#contact">Kontakt</NavLink>
+              <NavLink href="#kontakt">Kontakt</NavLink>
               <NavLink href="#naas">Nais as a Service</NavLink>
             </div>
           </nav>

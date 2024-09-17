@@ -74,7 +74,7 @@ function MobileNavigation() {
       >
         <MobileNavLink href="#funksjonalitet">Funksjoner</MobileNavLink>
         <MobileNavLink href="#omtaler">Omtaler</MobileNavLink>
-        <MobileNavLink href="#contact">Kontakt</MobileNavLink>
+        <MobileNavLink href="#kontakt">Kontakt</MobileNavLink>
         <MobileNavLink href="#naas">Nais as a Service</MobileNavLink>
         {/* <hr className="m-2 border-slate-300/40" /> */}
         {/* <MobileNavLink href="/login">Logg inn</MobileNavLink> */}
@@ -99,7 +99,7 @@ export function Header() {
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
-              <NavLink href="#contact">Kontakt oss</NavLink>
+              <NavLink href="#kontakt">Kontakt oss</NavLink>
             </div>
             <Button href="#naas" color="blue">
               <span>
