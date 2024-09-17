@@ -26,7 +26,7 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             NAIS plattformen er også tilgjengelig for andre offentlige virksomheter som en tjeneste vi kaller Nais as a Service.
           </p>
-          <Button href="/naas" color="white" className="mt-10">
+          <Button href="#naas" color="white" className="mt-10">
             Lær mer om NaaS
           </Button>
         </div>
