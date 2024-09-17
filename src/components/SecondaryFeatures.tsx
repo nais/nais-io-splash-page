@@ -26,7 +26,7 @@ const features: Array<Feature> = [
       'Vi har gjort det enkelt å rulle ut nye funksjoner og oppdateringer direkte fra GitHub. Du kan også rulle tilbake til tidligere versjoner hvis du trenger det.',
     image: screenshotGithub,
     icon: function ReportingIcon() {
-      let id = useId()
+      const id = useId()
       return (
         <>
           <defs>
