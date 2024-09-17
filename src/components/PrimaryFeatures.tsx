@@ -61,7 +61,7 @@ export function PrimaryFeatures() {
 
   return (
     <section
-      id="features"
+      id="funksjonalitet"
       aria-label="Funksjonalitet for å bygge applikasjoner"
       className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
     >
