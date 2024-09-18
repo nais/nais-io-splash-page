@@ -80,7 +80,7 @@ export function Testimonials() {
   return (
     <section
       id="omtaler"
-      aria-label="What our customers are saying"
+      aria-label="Dette sier brukerne våre"
       className="bg-slate-50 py-20 sm:py-32"
     >
       <Container>

@@ -91,8 +91,8 @@ function SwirlyDoodle(props: React.ComponentPropsWithoutRef<'svg'>) {
 export function Technology() {
   return (
     <section
-      id="pricing"
-      aria-label="Pricing"
+      id="teknologi"
+      aria-label="Teknologi"
       className="bg-slate-900 py-20 sm:py-32"
     >
       <Container>
