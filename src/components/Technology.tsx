@@ -1,6 +1,3 @@
-import clsx from 'clsx'
-
-import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Docker, Go, Grafana, Kafka, Kubernetes, Nginx, Postgres, Prometheus, Redis } from '@/components/TechIcons'
 
