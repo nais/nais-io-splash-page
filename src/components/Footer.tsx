@@ -15,7 +15,8 @@ export function Footer() {
             <div className="-my-1 gap-x-6 sm:flex sm:justify-center">
               <NavLink href="#funksjonalitet">Funksjonalitet</NavLink>
               <NavLink href="#omtaler">Omtaler</NavLink>
-              <NavLink href="##kontakt">Kontakt</NavLink>
+              <NavLink href="https://docs.nais.io">Dokumentasjon</NavLink>
+              <NavLink href="https://nais.io/blog">Blog</NavLink>
               <NavLink href="#naas">Nais as a Service</NavLink>
             </div>
           </nav>
