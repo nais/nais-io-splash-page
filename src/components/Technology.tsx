@@ -1,5 +1,5 @@
 import { Container } from '@/components/Container'
-import { Docker, Go, Grafana, Kafka, Kubernetes, Nginx, OpenSearch, Postgres, Prometheus, Redis } from '@/components/TechIcons'
+import { Docker, Go, Grafana, Kafka, Kubernetes, Nginx, OpenSearch, Postgres, Prometheus } from '@/components/TechIcons'
 
 const technologies = [
   {
