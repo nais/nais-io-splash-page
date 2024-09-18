@@ -5,6 +5,7 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
+import { Technology } from '@/components/Technology'
 import { Testimonials } from '@/components/Testimonials'
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
         <SecondaryFeatures />
         <CallToAction />
         <Testimonials />
-        {/* <Pricing /> */}
+        <Technology />
         <Faqs />
       </main>
       <Footer />
