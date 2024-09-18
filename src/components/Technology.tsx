@@ -1,5 +1,5 @@
 import { Container } from '@/components/Container'
-import { Docker, Go, Grafana, Kafka, Kubernetes, Nginx, Postgres, Prometheus, Redis } from '@/components/TechIcons'
+import { Docker, Go, Grafana, Kafka, Kubernetes, Nginx, OpenSearch, Postgres, Prometheus, Redis } from '@/components/TechIcons'
 
 const technologies = [
   {
@@ -8,6 +8,7 @@ const technologies = [
     icon: function KubernetesIcon() {
       return <Kubernetes className="h-16 w-16" />
     },
+    link: 'https://kubernetes.io/'
   },
   {
     name: 'Prometheus',
@@ -15,57 +16,63 @@ const technologies = [
     icon: function PrometheusIcon() {
       return <Prometheus className="h-16 w-16" />
     },
+    link: 'https://prometheus.io/'
   },
   {
     name: 'Grafana',
     role: 'Visualization',
     icon: function GrafanaIcon() {
       return <Grafana className="h-16 w-16" />
-    }
+    },
+    link: 'https://grafana.com/'
   },
   {
     name: 'Kafka',
     role: 'Event Streaming',
     icon: function KafkaIcon() {
       return <Kafka className="h-16 w-16 text-white fill-current stroke-current" strokeWidth={2} />
-    }
+    },
+    link: 'https://kafka.apache.org/'
   },
   {
     name: 'Postgres',
     role: 'Database',
     icon: function PostgresIcon() {
       return <Postgres className="h-16 w-16" />
-    }
+    },
+    link: 'https://www.postgresql.org/'
   },
   {
-    name: 'Redis',
-    role: 'Cache',
-    icon: function RedisIcon() {
-      return <Redis className="h-16 w-16" />
-    }
+    name: 'OpenSearch',
+    role: 'Search',
+    icon: function OpenSearchIcon() {
+      return <OpenSearch className="h-16 w-16" />
+    },
+    link: 'https://opensearch.org/'
   },
   {
     name: 'Nginx',
     role: 'Reverse Proxy',
     icon: function NginxIcon() {
       return <Nginx className="h-16 w-16" />
-    }
+    },
+    link: 'https://www.nginx.com/'
   },
   {
     name: 'Docker',
     role: 'Containerization',
     icon: function DockerIcon() {
       return <Docker className="h-16 w-16" />
-    }
+    },
+    link: 'https://www.docker.com/'
   },
   {
     name: 'Go',
     role: 'Programming Language',
     icon: function GoIcon() {
-      return (
-        <Go className="h-16 w-16" />
-      )
-    }
+      return <Go className="h-16 w-16" />
+    },
+    link: 'https://golang.org/'
   }
 ]
 function SwirlyDoodle(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -113,13 +120,13 @@ export function Technology() {
             </div>
             <ul role="list" className="grid gap-x-6 gap-y-6 md:grid-cols-3 grid-cols-2 sm:gap-y-6 xl:col-span-2">
               {technologies.map((tech) => (
-                <li key={tech.name} className="rounded-2xl bg-gray-800 px-4 py-4">
-                  <div className="flex items-center gap-x-6 h-full">
+                <li key={tech.name} className="rounded-2xl bg-gray-800 px-4 py-4 hover:bg-gray-700 transition-colors duration-300">
+                  <a href={tech.link} rel="noopener noreferrer" className="flex items-center gap-x-6 h-full">
                     {tech.icon && <tech.icon />}
                     <div className="flex flex-col justify-center">
                       <h3 className="text-base font-semibold leading-7 tracking-tight text-white">{tech.name}</h3>
                     </div>
-                  </div>
+                  </a>
                 </li>
               ))}
             </ul>

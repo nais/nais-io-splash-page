@@ -74,6 +74,7 @@ function MobileNavigation() {
       >
         <MobileNavLink href="#funksjonalitet">Funksjoner</MobileNavLink>
         <MobileNavLink href="#omtaler">Omtaler</MobileNavLink>
+        <MobileNavLink href="#teknologi">Teknologi</MobileNavLink>
         <MobileNavLink href="https://docs.nais.io">Dokumentasjon</MobileNavLink>
         <MobileNavLink href="https://nais.io/blog">Blog</MobileNavLink>
         <MobileNavLink href="#naas">Nais as a Service</MobileNavLink>
@@ -96,6 +97,7 @@ export function Header() {
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#funksjonalitet">Funksjoner</NavLink>
               <NavLink href="#omtaler">Omtaler</NavLink>
+              <NavLink href="#teknologi">Teknologi</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
