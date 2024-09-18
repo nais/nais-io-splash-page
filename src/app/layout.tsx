@@ -7,10 +7,10 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - nais',
-    default: 'nais - smidighet for alle produktteam',
+    default: 'nais - making teams go brrr',
   },
   description:
-    'nais er en plattform som lar produktteam fokusere på det som er viktigst, det å lage gode produkter, ikke å drifte plattformen.',
+    'nais er en plattform som lar produktteam fokusere på det som er viktigst, det å lage gode produkter, ikke drifte infrastruktur.',
 }
 
 const inter = Inter({
