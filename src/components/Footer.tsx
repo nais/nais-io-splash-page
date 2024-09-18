@@ -12,7 +12,7 @@ export function Footer() {
           <Logo className="mx-auto h-10 w-auto" />
           <p className="mt-10 text-center">Making teams go brrr</p>
           <nav className="mt-10 text-sm" aria-label="quick links">
-            <div className="-my-1 flex justify-center gap-x-6">
+            <div className="-my-1 gap-x-6 sm:flex sm:justify-center">
               <NavLink href="#funksjonalitet">Funksjonalitet</NavLink>
               <NavLink href="#omtaler">Omtaler</NavLink>
               <NavLink href="##kontakt">Kontakt</NavLink>
@@ -42,7 +42,7 @@ export function Footer() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Except where otherwise noted, content on this site is licensed under a <NavLink href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</NavLink>.
+            Med mindre annet er angitt, er innholdet på dette nettstedet lisensiert under en <NavLink href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International lisens</NavLink>.
           </p>
         </div>
       </Container>
