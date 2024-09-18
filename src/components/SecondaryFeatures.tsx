@@ -23,7 +23,7 @@ const features: Array<Feature> = [
     name: 'Utrulling',
     summary: 'Rull ut nye funksjoner og oppdateringer direkte fra GitHub.',
     description:
-      'Vi har gjort det enkelt å rulle ut nye funksjoner og oppdateringer direkte fra GitHub. Du kan også rulle tilbake til tidligere versjoner hvis du trenger det.',
+      'Vi har gjort det enkelt å rulle ut nye funksjoner og oppdateringer til applikasjoner med GitHub Actions. Fra commit til produksjon på få minutter.',
     image: screenshotGithub,
     icon: function ReportingIcon() {
       const id = useId()
@@ -58,7 +58,7 @@ const features: Array<Feature> = [
     summary:
       'Sov trygt og sikkert om natten. Vi har det dekket.',
     description:
-      'Våre automatiske sikkerhetssystemer jobber døgnet rundt for å sørge for at applikasjonene er trygge og at teamene kjenner til kritiske sårbarheter.',
+      'Våre automatiserte sikkerhetssystemer jobber døgnet rundt for å sørge for at applikasjonene dine er trygge og at teamene kjenner til kritiske sårbarheter.',
     image: screenshotVulnerabilities,
     icon: function InventoryIcon() {
       return (
@@ -86,7 +86,7 @@ const features: Array<Feature> = [
     summary:
       'Organiser teamet ditt og tildel roller for å holde alt på stell.',
     description:
-      'Vi har gjort det enkelt å organisere teamet ditt og tildeler roller for å holde alt på stell. Du kan også invitere eksterne brukere til å samarbeide med deg.',
+      'Vi har gjort det enkelt å organisere teamet ditt og tildeler roller for å holde alt på stell. Team blir synkronisert med Azure AD og GitHub Teams.',
     image: screenshotTeam,
     icon: function ContactsIcon() {
       return (
@@ -234,11 +234,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Gjør utvikling litt enklere
+            Gjør utvikling litt enklere.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Vi har automatisert de kjedelige oppgavene, slik at teamene kan fokusere
-            på det som utgjør en forskjell gjennom hele utviklingsprosessen.
+            Vi har automatisert mange av de kjedelige oppgavene, slik at teamene kan fokusere på de de kan best gjennom hele utviklingsprosessen.
           </p>
         </div>
         <FeaturesMobile />

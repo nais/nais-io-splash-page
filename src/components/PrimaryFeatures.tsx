@@ -16,19 +16,19 @@ const features = [
   {
     title: 'Applikasjoner',
     description:
-      "Hold oversikt over alle dine applikasjoner og se hvilke som er mest populære, så du kan fokusere på å lage flere av dem.",
+      "La teamene enkelt holde oversikt over alle sine applikasjoner, på tvers av alle miljøer.",
     image: screenshotApps,
   },
   {
-    title: 'Databaser',
+    title: 'Datalagring',
     description:
-      "Dine team kan enkelt opprette databaser og tabeller, og fylle dem med data for å lage applikasjoner.",
+      "Team kan enkelt opprette nye databaser, meldingskøer og lagringsområder når applikasjonene har behov for dette.",
     image: screenshotDatabase,
   },
   {
     title: 'Kostkontroll',
     description:
-      "Se hvor mye dine applikasjoner koster, og la teamene dine ta avgjørelser basert på data.",
+      "Se hvor mye hver enkelt applikasjon koster, og la teamene dine ta avgjørelser basert på innsikt og data.",
     image: screenshotCost,
   },
   {
@@ -79,7 +79,7 @@ export function PrimaryFeatures() {
             Alt dine team trenger for å lage applikasjoner.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Med våre funksjoner kan dine team fokusere på å lage applikasjoner, ikke administrere servere.
+            Med nais kan dine team fokusere på å lage applikasjoner, ikke administrere infrastruktur.
           </p>
         </div>
         <TabGroup

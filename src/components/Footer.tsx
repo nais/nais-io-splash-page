@@ -10,11 +10,12 @@ export function Footer() {
       <Container>
         <div className="py-16">
           <Logo className="mx-auto h-10 w-auto" />
+          <p className="mt-10 text-center">Making teams go brrr</p>
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
               <NavLink href="#funksjonalitet">Funksjonalitet</NavLink>
               <NavLink href="#omtaler">Omtaler</NavLink>
-              <NavLink href="#kontakt">Kontakt</NavLink>
+              <NavLink href="##kontakt">Kontakt</NavLink>
               <NavLink href="#naas">Nais as a Service</NavLink>
             </div>
           </nav>
@@ -41,8 +42,7 @@ export function Footer() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} nais. All rights
-            reserved.
+            Except where otherwise noted, content on this site is licensed under a <NavLink href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</NavLink>.
           </p>
         </div>
       </Container>

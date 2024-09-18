@@ -24,7 +24,7 @@ export function Hero() {
         for alle produktteam.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        De fleste plattformer er kompliserte og vanskelige å ta i bruk. Vi har
+        Mange plattformer er kompliserte og vanskelige å ta i bruk. Vi har
         bygget en som lar produktteam fokusere på det som er viktigst – lage
         gode applikasjoner.
       </p>

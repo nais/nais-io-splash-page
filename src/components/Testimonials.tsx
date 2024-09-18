@@ -13,7 +13,7 @@ const testimonials = [
       content:
         'nais er en fantastisk plattform som har gjort utviklingsprosessen vår mye enklere og mer effektiv!',
       author: {
-        name: 'Sheryl Berge',
+        name: 'Lars Berg',
         role: 'Backendutvikler hos Team Fantastisk',
         image: avatarImage1,
       },
@@ -22,7 +22,7 @@ const testimonials = [
       content:
         'Jeg er imponert over hvor enkelt det er å bygge, deploye og kjøre applikasjoner med nais. Det har virkelig hjulpet meg som frontendutvikler.',
       author: {
-        name: 'John Doe',
+        name: 'Ingrid Nilsen',
         role: 'Frontendutvikler hos Team Utrolig',
         image: avatarImage2,
       },
@@ -32,7 +32,7 @@ const testimonials = [
       content:
         'nais har revolusjonert måten vi jobber med applikasjoner på!',
       author: {
-        name: 'Jane Smith',
+        name: 'Per Hansen',
         role: 'Produkteier hos Team Super',
         image: avatarImage3,
       },
@@ -41,7 +41,7 @@ const testimonials = [
       content:
         'Som scrum master er jeg veldig imponert over nais. Det har virkelig forbedret vår infrastruktur og gjort det enklere å utvikle og drifte applikasjoner.',
       author: {
-        name: 'David Johnson',
+        name: 'Anne Johansen',
         role: 'Scrum Master hos Team Topp',
         image: avatarImage4,
       },
@@ -51,7 +51,7 @@ const testimonials = [
       content:
         'Med nais har vi oppnådd betydelige tidsbesparelser i deploy-prosessen. Det har virkelig økt vår produktivitet og gjort det enklere å levere nye funksjoner raskt.',
       author: {
-        name: 'Emily Davis',
+        name: 'Nils Olsen',
         role: 'Tester hos Team Best',
         image: avatarImage5,
       },
@@ -60,7 +60,7 @@ const testimonials = [
       content:
         'Jeg er veldig fornøyd med nais. Det har virkelig forbedret vår utviklingsprosess og gitt oss større fleksibilitet.',
       author: {
-        name: 'Sarah Johnson',
+        name: 'Eva Larsen',
         role: 'Avdelingsleder hos Team Kult',
         image: avatarImage1,
       },
@@ -89,8 +89,7 @@ export function Testimonials() {
             Elsket av team over hele Norge.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Team over hele Norge har tatt i bruk nais for å kjøre kritiske
-            applikasjoner i produksjon. Her er hva noen av dem har å si.
+            Team over hele Norge har tatt i bruk nais for å kjøre sine applikasjoner i produksjon. Her er hva noen av dem har å si.
           </p>
         </div>
         <ul
