@@ -8,7 +8,7 @@ import logoSsb from '@/images/logos/ssb.svg'
 export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32">
-      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-6xl lg:text-7xl">
         Det er {' '}
         <span className="relative whitespace-nowrap text-blue-600">
           <svg
@@ -21,7 +21,7 @@ export function Hero() {
           </svg>
           <span className="relative">nais</span>
         </span>{' '}
-        å være applikasjonsutvikler.
+        å være app<span className='hidden sm:inline'>likasjons</span>utvikler
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         Vi mener at det skal være lett å gjøre rett. Derfor har vi bygget en som lar produktteam fokusere på det som er viktigst – lage
