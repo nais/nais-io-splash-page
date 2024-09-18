@@ -234,7 +234,7 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Gjør utvikling litt enklere.
+            Gjør hverdagen litt enklere.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Vi har automatisert mange av de kjedelige oppgavene, slik at teamene kan fokusere på de de kan best gjennom hele utviklingsprosessen.
