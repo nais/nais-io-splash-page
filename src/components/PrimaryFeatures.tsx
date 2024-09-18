@@ -16,7 +16,7 @@ const features = [
   {
     title: 'Applikasjoner',
     description:
-      "La teamene enkelt holde oversikt over alle sine applikasjoner, på tvers av alle miljøer.",
+      "I nais console kan teamene enkelt holde oversikt over alle sine applikasjoner, på tvers av alle miljøer.",
     image: screenshotApps,
   },
   {
@@ -28,7 +28,7 @@ const features = [
   {
     title: 'Kostkontroll',
     description:
-      "Se hvor mye hver enkelt applikasjon koster, og la teamene dine ta avgjørelser basert på innsikt og data.",
+      "Se hvor mye hver enkelt applikasjon koster slik at teamene kan ta avgjørelser basert på innsikt og data.",
     image: screenshotCost,
   },
   {
