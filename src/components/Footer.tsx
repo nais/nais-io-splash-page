@@ -14,7 +14,7 @@ export function Footer() {
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 gap-x-6 sm:flex sm:justify-center">
               <NavLink href="#funksjonalitet">Funksjonalitet</NavLink>
-              <NavLink href="#omtaler">Omtaler</NavLink>
+              {/* <NavLink href="#omtaler">Omtaler</NavLink> */}
               <NavLink href="#teknologi">Teknologi</NavLink>
               <NavLink href="https://docs.nais.io">Dokumentasjon</NavLink>
               <NavLink href="https://nais.io/blog">Blog</NavLink>

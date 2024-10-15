@@ -73,7 +73,7 @@ function MobileNavigation() {
         className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5 data-[closed]:scale-95 data-[closed]:opacity-0 data-[enter]:duration-150 data-[leave]:duration-100 data-[enter]:ease-out data-[leave]:ease-in"
       >
         <MobileNavLink href="#funksjonalitet">Funksjoner</MobileNavLink>
-        <MobileNavLink href="#omtaler">Omtaler</MobileNavLink>
+        {/* <MobileNavLink href="#omtaler">Omtaler</MobileNavLink> */}
         <MobileNavLink href="#teknologi">Teknologi</MobileNavLink>
         <MobileNavLink href="https://docs.nais.io">Dokumentasjon</MobileNavLink>
         <MobileNavLink href="https://nais.io/blog">Blog</MobileNavLink>
@@ -96,7 +96,7 @@ export function Header() {
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#funksjonalitet">Funksjoner</NavLink>
-              <NavLink href="#omtaler">Omtaler</NavLink>
+              {/* <NavLink href="#omtaler">Omtaler</NavLink> */}
               <NavLink href="#teknologi">Teknologi</NavLink>
             </div>
           </div>
