@@ -56,9 +56,9 @@ const features: Array<Feature> = [
   {
     name: 'Sårbarheter',
     summary:
-      'Sov trygt og sikkert om natten. Vi har det dekket.',
+      'Hold applikasjonene dine oppdatert med siste sikkerhetspatch',
     description:
-      'Våre automatiserte sikkerhetssystemer jobber døgnet rundt for å sørge for at applikasjonene dine er trygge og at teamene kjenner til kritiske sårbarheter.',
+      'Vi har bygget inn støtte for sikkerhetssystemer som identifiserer og varsle om kjente sårbarheter. Dette gjør det enklere for teamene å holde sine applikasjoner trygg.',
     image: screenshotVulnerabilities,
     icon: function InventoryIcon() {
       return (
@@ -86,7 +86,7 @@ const features: Array<Feature> = [
     summary:
       'Organiser teamet ditt og tildel roller for å holde alt på stell.',
     description:
-      'Vi har gjort det enkelt å organisere teamet ditt og tildeler roller for å holde alt på stell. Team blir synkronisert med Azure AD og GitHub Teams.',
+      'Vi har gjort det enkelt å organisere teamet ditt og tildeler roller for å holde alt på stell. Team blir synkronisert med Google, GitHub, og Azure.',
     image: screenshotTeam,
     icon: function ContactsIcon() {
       return (
