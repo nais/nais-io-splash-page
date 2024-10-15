@@ -1,68 +1,59 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
-import avatarImage1 from '@/images/avatars/avatar-1.png'
-import avatarImage2 from '@/images/avatars/avatar-2.png'
-import avatarImage3 from '@/images/avatars/avatar-3.png'
-import avatarImage4 from '@/images/avatars/avatar-4.png'
-import avatarImage5 from '@/images/avatars/avatar-5.png'
+import avatarImage1 from '@/images/avatars/gullaksen.jpg'
+import avatarImage2 from '@/images/avatars/byhring.jpg'
+import avatarImage3 from '@/images/avatars/albrektsson.jpg'
+import avatarImage4 from '@/images/avatars/solbakken.jpg'
+import avatarImage5 from '@/images/avatars/skifte.jpg'
 
 const testimonials = [
   [
     {
       content:
-        'nais er en fantastisk plattform som har gjort utviklingsprosessen vår mye enklere og mer effektiv!',
+        'Mindre 🐮💩, mere 🌈🦄',
       author: {
-        name: 'Lars Berg',
-        role: 'Backendutvikler hos Team Fantastisk',
-        image: avatarImage1,
-      },
-    },
-    {
-      content:
-        'Jeg er imponert over hvor enkelt det er å bygge, deploye og kjøre applikasjoner med nais. Det har virkelig hjulpet meg som frontendutvikler.',
-      author: {
-        name: 'Ingrid Nilsen',
-        role: 'Frontendutvikler hos Team Utrolig',
-        image: avatarImage2,
-      },
-    },
-  ], [
-    {
-      content:
-        'nais har revolusjonert måten vi jobber med applikasjoner på!',
-      author: {
-        name: 'Per Hansen',
-        role: 'Produkteier hos Team Super',
-        image: avatarImage3,
-      },
-    },
-    {
-      content:
-        'Som scrum master er jeg veldig imponert over nais. Det har virkelig forbedret vår infrastruktur og gjort det enklere å utvikle og drifte applikasjoner.',
-      author: {
-        name: 'Anne Johansen',
-        role: 'Scrum Master hos Team Topp',
+        name: 'Jan-Kåre Solbakken',
+        role: 'Fulltidsekvivalent i NAV',
         image: avatarImage4,
       },
     },
+    {
+      content:
+        'NAIS gior det enkelt å kjære og oppdatere applikasioner uten unadvendig arbeid. Mindre tid pả systemhåndtering, mer tid til å kode!',
+      author: {
+        name: 'Emil Albrektsson',
+        role: 'Sikkerhetsutvikler i NAV',
+        image: avatarImage3,
+      },
+    },
   ], [
     {
       content:
-        'Med nais har vi oppnådd betydelige tidsbesparelser i deploy-prosessen. Det har virkelig økt vår produktivitet og gjort det enklere å levere nye funksjoner raskt.',
+        'Nais har et veldig bra abstraksjonsnivå med fornuftige defaults. Teamet kan enkelt sette opp de tjenestene og mekanismene appene våre trenger, samtidig som vi ikke behøver å forholde oss til detaljer som er mindre relevant.',
       author: {
-        name: 'Nils Olsen',
-        role: 'Tester hos Team Best',
-        image: avatarImage5,
+        name: 'Ken Gullaksen',
+        role: 'Konsulent i Scelto AS',
+        image: avatarImage1,
+      },
+    },
+  ], [
+    {
+      content:
+        'Effektiv utvikling med selvbetjening, sikkerhet og snacks! Automatisert infrastruktur lar utviklere fokusere på forretningslogikk.',
+      author: {
+        name: 'Morten Byhring',
+        role: 'Utvikler i NAV',
+        image: avatarImage2,
       },
     },
     {
       content:
-        'Jeg er veldig fornøyd med nais. Det har virkelig forbedret vår utviklingsprosess og gitt oss større fleksibilitet.',
+        'Nais gir teamene sjumilsstøvler 🏃',
       author: {
-        name: 'Eva Larsen',
-        role: 'Avdelingsleder hos Team Kult',
-        image: avatarImage1,
+        name: 'Anders Skifte',
+        role: 'Produktleder i NAV',
+        image: avatarImage5,
       },
     },
   ],
